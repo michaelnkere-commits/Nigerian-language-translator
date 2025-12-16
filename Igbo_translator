@@ -1,0 +1,29 @@
+igbo = {
+    "hello": "ndewo",
+    "thank you": "daalu",
+    "please": "biko",
+    "yes": "ee",
+    "no": "mba",
+    "water": "mmiri",
+    "food": "nri",
+    "house": "ulo",
+    "school": "ulo akwukwo",
+    "friend": "enyi",
+    "mother": "nne",
+    "father": "nna",
+    "brother": "nwanne nwoke",
+    "sister": "nwanne nwanyi",
+    "love": "ihu n’anya",
+    "good": "oma",
+    "bad": "ojo",
+    "morning": "ututu",
+    "night": "abali",
+    "sleep": "ihi ura"
+}
+
+english_word = input("Enter an English word: ").lower()
+
+if english_word in igbo:
+    print("Igbo translation:", igbo[english_word])
+else:
+    print("Word not found in the dictionary.")
