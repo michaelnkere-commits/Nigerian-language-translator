@@ -1,4 +1,4 @@
-# SIMPLE IGBO + YORUBA + HAUSA TRANSLATOR
+# SIMPLE IGBO + YORUBA + HAUSA + EDO TRANSLATOR
 
 igbo = {
     "hello": "ndewo",
@@ -69,12 +69,36 @@ hausa = {
     "sleep": "barci"
 }
 
+edo = {
+    "hello": "koyo",
+    "thank you": "oshe",
+    "please": "mase",
+    "yes": "ee",
+    "no": "iyo",
+    "water": "ami",
+    "food": "emwin",
+    "house": "owa",
+    "school": "owa evbie",
+    "friend": "ota",
+    "mother": "iye",
+    "father": "ise",
+    "brother": "egbon",
+    "sister": "evbare",
+    "love": "uwerhe",
+    "good": "ose",
+    "bad": "khian",
+    "morning": "owia",
+    "night": "ogbe",
+    "sleep": "khuo"
+}
+
 print("Choose a language")
 print("1. Igbo")
 print("2. Yoruba")
 print("3. Hausa")
+print("4. Edo")
 
-choice = input("Enter 1, 2, or 3: ")
+choice = input("Enter 1, 2, 3, or 4: ")
 english_word = input("Enter an English word: ").lower()
 
 if choice == "1":
@@ -94,6 +118,12 @@ elif choice == "3":
         print("Hausa translation:", hausa[english_word])
     else:
         print("Word not found in Hausa dictionary.")
+
+elif choice == "4":
+    if english_word in edo:
+        print("Edo translation:", edo[english_word])
+    else:
+        print("Word not found in Edo dictionary.")
 
 else:
     print("Invalid choice.")
