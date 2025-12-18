@@ -1,4 +1,4 @@
-# SIMPLE IGBO + YORUBA TRANSLATOR
+# SIMPLE IGBO + YORUBA + HAUSA TRANSLATOR
 
 igbo = {
     "hello": "ndewo",
@@ -46,11 +46,35 @@ yoruba = {
     "sleep": "sun"
 }
 
+hausa = {
+    "hello": "sannu",
+    "thank you": "na gode",
+    "please": "don Allah",
+    "yes": "eh",
+    "no": "a'a",
+    "water": "ruwa",
+    "food": "abinci",
+    "house": "gida",
+    "school": "makaranta",
+    "friend": "aboki",
+    "mother": "uwa",
+    "father": "uba",
+    "brother": "dan uwa",
+    "sister": "yar uwa",
+    "love": "soyayya",
+    "good": "mai kyau",
+    "bad": "mara kyau",
+    "morning": "safiya",
+    "night": "dare",
+    "sleep": "barci"
+}
+
 print("Choose a language")
 print("1. Igbo")
 print("2. Yoruba")
+print("3. Hausa")
 
-choice = input("Enter 1 or 2: ")
+choice = input("Enter 1, 2, or 3: ")
 english_word = input("Enter an English word: ").lower()
 
 if choice == "1":
@@ -64,6 +88,12 @@ elif choice == "2":
         print("Yoruba translation:", yoruba[english_word])
     else:
         print("Word not found in Yoruba dictionary.")
+
+elif choice == "3":
+    if english_word in hausa:
+        print("Hausa translation:", hausa[english_word])
+    else:
+        print("Word not found in Hausa dictionary.")
 
 else:
     print("Invalid choice.")
