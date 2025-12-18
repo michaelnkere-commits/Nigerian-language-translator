@@ -1,4 +1,4 @@
-# SIMPLE IGBO + YORUBA + HAUSA + EDO TRANSLATOR
+# SIMPLE IGBO + YORUBA + HAUSA + EDO + IDOMA TRANSLATOR
 
 igbo = {
     "hello": "ndewo",
@@ -92,13 +92,37 @@ edo = {
     "sleep": "khuo"
 }
 
+idoma = {
+    "hello": "awo",
+    "thank you": "alebo",
+    "please": "kpa",
+    "yes": "ee",
+    "no": "iye",
+    "water": "omi",
+    "food": "ole",
+    "house": "efu",
+    "school": "efu icha",
+    "friend": "oche",
+    "mother": "inya",
+    "father": "icho",
+    "brother": "onyi",
+    "sister": "onyi ene",
+    "love": "oyoyo",
+    "good": "ododo",
+    "bad": "ochi",
+    "morning": "ojale",
+    "night": "ochele",
+    "sleep": "lodo"
+}
+
 print("Choose a language")
 print("1. Igbo")
 print("2. Yoruba")
 print("3. Hausa")
 print("4. Edo")
+print("5. Idoma")
 
-choice = input("Enter 1, 2, 3, or 4: ")
+choice = input("Enter 1, 2, 3, 4, or 5: ")
 english_word = input("Enter an English word: ").lower()
 
 if choice == "1":
@@ -124,6 +148,12 @@ elif choice == "4":
         print("Edo translation:", edo[english_word])
     else:
         print("Word not found in Edo dictionary.")
+
+elif choice == "5":
+    if english_word in idoma:
+        print("Idoma translation:", idoma[english_word])
+    else:
+        print("Word not found in Idoma dictionary.")
 
 else:
     print("Invalid choice.")
