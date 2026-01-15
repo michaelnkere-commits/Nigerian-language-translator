@@ -2,6 +2,8 @@
 
 
 # COS 101 African Language Translator
+![Screenshot_15-1-2026_05928_github com](https://github.com/user-attachments/assets/32b53263-8bff-4208-9dbb-cb51a7e38633)
+
 
 ## Description
 This is a simple Python program developed as a COS 101 group project.  
