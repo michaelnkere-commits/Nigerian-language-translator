@@ -1,7 +1,4 @@
 
-![Screenshot_15-1-2026_14342_localhost](https://github.com/user-attachments/assets/e5022eca-e43c-4f7c-9b01-666c7db8cdd3)
-
-![Screenshot_15-1-2026_05928_github com](https://github.com/user-attachments/assets/d6129489-48bb-4bbf-a27c-d786dd840cc2)
 
 
 # COS 101 African Language Translator
