@@ -35,3 +35,8 @@ python translator.py
 - Hausa Dictionary – Adedamola Lawson
 - Edo Dictionary – Olabode Kingdavid
 - Idoma Dictionary – Akinleye Daniel
+![Screenshot_15-1-2026_14342_localhost](https://github.com/user-attachments/assets/a5960da9-c558-4376-973b-2dca85593853)
+
+
+
+
